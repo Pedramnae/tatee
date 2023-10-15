@@ -1,0 +1,606 @@
+@font-face {
+  font-family: poppinsb;
+  src: url(../fonts/Poppins-Black.ttf);
+}
+@font-face {
+  font-family: poppinsl;
+  src: url(../fonts/Poppins-Light.ttf);
+}
+.top-page {
+  width: 100%;
+  height: 100vh;
+}
+.top-page > .top--nav {
+  height: 100px;
+  justify-content: space-between;
+}
+.top-page > .top--nav > .menu-list-icon > i {
+  transition: 0.4s;
+  color: black;
+  width: 40px;
+  height: 40px;
+}
+.top-page > .top--nav > .menu-list-icon > i:hover {
+  background-color: gray;
+  color: white;
+}
+.top-page > .top--nav > figure > img {
+  width: 120px;
+}
+.top-page > .top--nav > nav > ul > li {
+  position: relative;
+  z-index: 1;
+}
+.top-page > .top--nav > nav > ul > li:nth-of-type(1):hover > ul {
+  opacity: 1;
+  visibility: visible;
+  bottom: -600px;
+}
+.top-page > .top--nav > nav > ul > li:nth-of-type(1) > ul {
+  position: absolute;
+  height: 600px;
+  width: 250px;
+  bottom: -700px;
+  left: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.4s;
+}
+.top-page > .top--nav > nav > ul > li:nth-of-type(1) > ul > li {
+  height: 45px;
+}
+.top-page > .top--nav > nav > ul > li:nth-of-type(1) > ul > li > a {
+  transition: 0.4s;
+  color: white;
+  font-family: poppinsl;
+  text-transform: capitalize;
+  padding-left: 20px;
+  font-size: 14px;
+}
+.top-page > .top--nav > nav > ul > li:nth-of-type(1) > ul > li > a:hover {
+  color: gray;
+}
+.top-page > .top--nav > nav > ul > li:nth-of-type(3):hover > ul {
+  opacity: 1;
+  visibility: visible;
+  bottom: -220px;
+}
+.top-page > .top--nav > nav > ul > li:nth-of-type(3) > ul {
+  width: 250px;
+  height: 220px;
+  position: absolute;
+  bottom: -300px;
+  left: 0;
+  transition: 0.4s;
+  opacity: 0;
+  visibility: hidden;
+}
+.top-page > .top--nav > nav > ul > li:nth-of-type(3) > ul > li {
+  height: 45px;
+}
+.top-page > .top--nav > nav > ul > li:nth-of-type(3) > ul > li > a {
+  text-decoration: none;
+  color: white;
+  font-family: poppinsl;
+  font-size: 14px;
+  transition: 0.4s;
+  padding-left: 20px;
+  text-transform: capitalize;
+}
+.top-page > .top--nav > nav > ul > li:nth-of-type(3) > ul > li > a:hover {
+  color: gray;
+}
+.top-page > .top--nav > nav > ul > li:nth-of-type(4):hover > ul {
+  opacity: 1;
+  visibility: visible;
+  bottom: -265px;
+}
+.top-page > .top--nav > nav > ul > li:nth-of-type(4) > ul {
+  transition: 0.4s;
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  width: 250px;
+  height: 265px;
+  left: 0;
+  bottom: -345px;
+}
+.top-page > .top--nav > nav > ul > li:nth-of-type(4) > ul > li {
+  height: 45px;
+}
+.top-page > .top--nav > nav > ul > li:nth-of-type(4) > ul > li > a {
+  text-transform: capitalize;
+  transition: 0.4s;
+  color: white;
+  font-family: poppinsl;
+  font-size: 14px;
+  text-decoration: none;
+  padding-left: 20px;
+}
+.top-page > .top--nav > nav > ul > li:nth-of-type(4) > ul > li > a:hover {
+  color: gray;
+}
+.top-page > .top--nav > nav > ul > li:nth-of-type(5):hover > ul {
+  opacity: 1;
+  visibility: visible;
+  bottom: -135px;
+}
+.top-page > .top--nav > nav > ul > li:nth-of-type(5) > ul {
+  position: absolute;
+  width: 250px;
+  height: 135px;
+  left: 0;
+  bottom: -180px;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.4s;
+}
+.top-page > .top--nav > nav > ul > li:nth-of-type(5) > ul > li {
+  height: 45px;
+  position: relative;
+}
+.top-page > .top--nav > nav > ul > li:nth-of-type(5) > ul > li:hover > ul {
+  opacity: 1;
+  visibility: visible;
+  bottom: -135px;
+}
+.top-page > .top--nav > nav > ul > li:nth-of-type(5) > ul > li > ul {
+  position: absolute;
+  width: 250px;
+  left: -250px;
+  bottom: -180px;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.4s;
+}
+.top-page > .top--nav > nav > ul > li:nth-of-type(5) > ul > li > ul > li {
+  height: 45px;
+}
+.top-page > .top--nav > nav > ul > li:nth-of-type(5) > ul > li > ul > li > a {
+  text-transform: capitalize;
+  text-decoration: none;
+  transform: 0.4s;
+  color: white;
+  font-size: 14px;
+  font-family: poppinsl;
+  padding-left: 20px;
+}
+.top-page > .top--nav > nav > ul > li:nth-of-type(5) > ul > li > ul > li > a:hover {
+  color: gray;
+}
+.top-page > .top--nav > nav > ul > li:nth-of-type(5) > ul > li > a {
+  text-decoration: none;
+  color: white;
+  transition: 0.4s;
+  padding-left: 20px;
+  text-transform: capitalize;
+  font-family: poppinsl;
+  font-size: 14px;
+}
+.top-page > .top--nav > nav > ul > li:nth-of-type(5) > ul > li > a:hover {
+  color: gray;
+}
+.top-page > .top--nav > nav > ul > li > a {
+  text-decoration: none;
+  color: black;
+  font-family: poppinsl;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+.top-page > .top--nav > .top--icons > a:nth-of-type(1):hover > i {
+  color: pink;
+}
+.top-page > .top--nav > .top--icons > a:nth-of-type(2):hover > i {
+  color: blue;
+}
+.top-page > .top--nav > .top--icons > a:nth-of-type(3):hover > i {
+  color: cyan;
+}
+.top-page > .top--nav > .top--icons > a:nth-of-type(4):hover > i {
+  color: red;
+}
+.top-page > .top--nav > .top--icons > a > i {
+  color: black;
+  transition: 0.4s;
+}
+.top-page > .gallery > div {
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+.top-page > .gallery > div > div {
+  position: absolute;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.top-page > .gallery > div > div:nth-of-type(1) {
+  background-image: url(../img/slide-01.jpg);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  animation-name: galleryslider1;
+  background-repeat: no-repeat;
+}
+.top-page > .gallery > div > div:nth-of-type(2) {
+  background-image: url(../img/slide-12.jpg);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  animation-name: galleryslider2;
+  background-repeat: no-repeat;
+}
+.top-page > .gallery > div > div:nth-of-type(3) {
+  background-image: url(../img/slide-13.jpg);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  animation-name: galleryslider3;
+  background-repeat: no-repeat;
+}
+.top-page > .gallery > div > div > div > p {
+  font-family: poppinsl;
+  left: 0;
+  top: -100%;
+  animation: sliderp 10s linear infinite;
+}
+.top-page > .gallery > div > div > div > h2 {
+  font-family: poppinsb;
+  top: 50%;
+  left: -100%;
+  transform: translate(0, -50%);
+  animation: sliderh2 10s linear infinite;
+}
+.top-page > .gallery > div > div > div > span {
+  left: 0;
+  bottom: -100%;
+  animation: slidera 10s linear infinite;
+}
+.top-page > .gallery > div > div > div > span > a {
+  width: 130px;
+  height: 50px;
+  color: white;
+  transition: 0.4s;
+  font-family: poppinsl;
+}
+.top-page > .gallery > div > div > div > span > a:hover {
+  background-color: white;
+  color: black;
+}
+
+@keyframes galleryslider1 {
+  0% {
+    left: 0;
+  }
+  30% {
+    left: 0;
+  }
+  36% {
+    left: -100%;
+  }
+  36.0000000001% {
+    left: 100%;
+  }
+  94% {
+    left: 100%;
+  }
+  100% {
+    left: 0;
+  }
+}
+@keyframes galleryslider2 {
+  0% {
+    left: 100%;
+  }
+  30% {
+    left: 100%;
+  }
+  36% {
+    left: 0;
+  }
+  63% {
+    left: 0;
+  }
+  69% {
+    left: -100%;
+  }
+  69.00000000001% {
+    left: 100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+@keyframes galleryslider3 {
+  0% {
+    left: 100%;
+  }
+  63% {
+    left: 100%;
+  }
+  69% {
+    left: 0;
+  }
+  94% {
+    left: 0;
+  }
+  100% {
+    left: -100%;
+  }
+}
+@keyframes sliderp {
+  0% {
+    top: -100%;
+  }
+  10% {
+    top: -100%;
+  }
+  15% {
+    top: 13%;
+  }
+  80% {
+    top: 13%;
+  }
+  85% {
+    top: -100%;
+  }
+  100% {
+    top: -100%;
+  }
+}
+@keyframes sliderh2 {
+  0% {
+    left: -100%;
+  }
+  10% {
+    left: -100%;
+  }
+  15% {
+    left: 0;
+  }
+  80% {
+    left: 0;
+  }
+  85% {
+    left: -100%;
+  }
+  100% {
+    left: -100%;
+  }
+}
+@keyframes slidera {
+  0% {
+    bottom: -100%;
+  }
+  10% {
+    bottom: -100%;
+  }
+  15% {
+    bottom: 13%;
+  }
+  80% {
+    bottom: 13%;
+  }
+  85% {
+    bottom: -100%;
+  }
+  100% {
+    bottom: -100%;
+  }
+}
+.experiences > div > article > p {
+  font-family: poppinsl;
+  color: gray;
+}
+.experiences > div > article > h2 {
+  font-family: poppinsb;
+}
+.experiences > div > article > span > a {
+  width: 130px;
+  height: 50px;
+  color: black;
+  transition: 0.4s;
+  font-family: poppinsl;
+  border: 1px solid black;
+}
+.experiences > div > article > span > a:hover {
+  background-color: black;
+  color: white;
+}
+.experiences > span > figure::after {
+  content: "";
+  position: absolute;
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+  width: 50%;
+  height: 50%;
+  top: 4%;
+  left: 4%;
+}
+.experiences > span > figure::before {
+  content: "";
+  position: absolute;
+  bottom: 4%;
+  right: 4%;
+  width: 50%;
+  height: 50%;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+}
+.experiences > span > figure > figcaption {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.experiences > span > figure > figcaption > h2 {
+  font-family: poppinsb;
+  font-size: 150px;
+}
+.experiences > span > figure > figcaption > p {
+  font-family: poppinsl;
+}
+
+.ourspecialize {
+  font-family: poppinsl;
+}
+.ourspecialize > div > h2 {
+  font-family: poppinsb;
+}
+
+.slider > div > p {
+  font-family: poppinsl;
+}
+.slider > div > h2 {
+  font-family: poppinsb;
+}
+.slider > div > div:hover > figure > img {
+  filter: blur(5px);
+}
+.slider > div > div:hover::after {
+  width: 50%;
+  height: 50%;
+}
+.slider > div > div:hover::before {
+  width: 50%;
+  height: 50%;
+}
+.slider > div > div::after {
+  content: "";
+  position: absolute;
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+  width: 0%;
+  height: 0%;
+  top: 4%;
+  left: 5%;
+  transition: 0.4s;
+}
+.slider > div > div::before {
+  content: "";
+  position: absolute;
+  bottom: 4%;
+  right: 5%;
+  width: 0%;
+  height: 0%;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  transition: 0.4s;
+  z-index: 1;
+}
+.slider > div > div:hover > figure > h4 {
+  opacity: 1;
+  visibility: visible;
+}
+.slider > div > div:hover > figure > p {
+  opacity: 1;
+  visibility: visible;
+}
+.slider > div > div > figure > img {
+  transition: 0.4s;
+}
+.slider > div > div > figure > h4 {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: poppinsl;
+  color: white;
+  font-weight: bold;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.4s;
+}
+.slider > div > div > figure > p {
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: poppinsl;
+  color: white;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.4s;
+}
+
+.people > div > p {
+  font-family: poppinsl;
+}
+.people > div > h2 {
+  font-family: poppinsb;
+}
+.people > div > article > div {
+  background-color: #f8f8f8;
+}
+.people > div > article > div > figure {
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  top: 85%;
+  left: calc(50% - 45px);
+  z-index: 1;
+}
+.people > div > article > div > p {
+  font-family: poppinsl;
+}
+.people > div > article > div > h5 {
+  font-family: poppinsb;
+}
+
+.latestnews > div > article > div > figure {
+  height: 250px;
+}
+.latestnews > div > article > div > figure:hover > img {
+  width: 110%;
+  height: 110%;
+  left: -5%;
+  top: -5%;
+}
+.latestnews > div > article > div > figure > img {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transition: 1s;
+}
+.latestnews > div > article > div > a {
+  font-family: poppinsl;
+  font-weight: bold;
+  transition: 0.4s;
+}
+.latestnews > div > article > div > a:hover {
+  color: gray;
+}
+.latestnews > div > article > div > p {
+  font-family: poppinsl;
+}
+.latestnews > div > article > div > time {
+  font-family: poppinsl;
+}
+
+.endfoot {
+  background-image: url(../img/bg-footer-01.jpg);
+  position: relative;
+}
+.endfoot > div > .rightmenu > div > a:nth-of-type(1):hover > i {
+  color: pink;
+}
+.endfoot > div > .rightmenu > div > a:nth-of-type(2):hover > i {
+  color: blue;
+}
+.endfoot > div > .rightmenu > div > a:nth-of-type(3):hover > i {
+  color: cyan;
+}
+.endfoot > div > .rightmenu > div > a:nth-of-type(4):hover > i {
+  color: red;
+}
+.endfoot > div > .rightmenu > div > a > i {
+  color: white;
+  transition: 0.4s;
+}
+.endfoot::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.653);
+}/*# sourceMappingURL=master.css.map */
